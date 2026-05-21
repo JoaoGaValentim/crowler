@@ -6,7 +6,7 @@ import org.jsoup.nodes.Element;
 import com.crawler.exceptions.DocumentNotFoundException;
 import com.crawler.exceptions.ElementNotFoundException;
 
-abstract public class ConentService implements Service {
+abstract public class ContentService implements Service {
     private Document document;
     private String id;
     private String cssClass;

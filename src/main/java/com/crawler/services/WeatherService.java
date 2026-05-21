@@ -18,7 +18,7 @@ import org.jsoup.Jsoup;
  * @author João Gabriel
  * @version 0.1
  */
-public class WeatherService extends ConentService {
+public class WeatherService extends ContentService {
     private final String URL = "https://www.wunderground.com/weather/br/";
     private final String title;
     private final String minTemperatureText;

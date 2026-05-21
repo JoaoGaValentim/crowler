@@ -6,7 +6,7 @@ import org.jsoup.nodes.Element;
 import com.crawler.exceptions.DocumentNotFoundException;
 import com.crawler.exceptions.ElementNotFoundException;
 
-public class CurrencyService extends ConentService {
+public class CurrencyService extends ContentService {
     private Element currencyInput;
     private final String URL = "https://www.melhorcambio.com/dolar-hoje";
 
