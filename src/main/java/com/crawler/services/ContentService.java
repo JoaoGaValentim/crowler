@@ -13,11 +13,11 @@ abstract public class ContentService implements Service {
     private String elementName;
     private String text;
 
-    public ConentService() {
+    public ContentService() {
         this("", "", "", "");
     }
 
-    public ConentService(String id, String cssClass, String elementName, String text) {
+    public ContentService(String id, String cssClass, String elementName, String text) {
         this.id = id;
         this.cssClass = cssClass;
         this.elementName = elementName;
